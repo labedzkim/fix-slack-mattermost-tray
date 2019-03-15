@@ -5,7 +5,8 @@ command -v convert >/dev/null 2>&1 || {
 		exit 1; 
 	}
 
-source settings
+basePath=`dirname \`realpath $0\``
+source $basePath/settings
 
 fixImage() {
 	cp $1 $1.original
