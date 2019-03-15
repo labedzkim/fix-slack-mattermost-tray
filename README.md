@@ -1,6 +1,12 @@
 # fix-slack-mattermost-tray
 Scripts fixing the size of tray icons in Slack and Mattermost
 
+## What do I need to install before use?
+
+The scripts validate necessary dependencies. Anyway, the following packages are used:
+
+- ImageMagick
+
 ## What can I configure?
 
 In the `settings` file you can find the configurable parameters, each of them explained in comments.
