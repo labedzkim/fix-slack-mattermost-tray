@@ -1,5 +1,7 @@
 # fix-slack-mattermost-tray
-Scripts fixing the size of tray icons in Slack and Mattermost
+Scripts fixing the size of tray icons of Slack and Mattermost in KDE environment.
+
+This is the one of possible fixes. Please refer to [Other fixes](#other-fixes) to learn about other possibilities.
 
 ## What do I need to install before use?
 
@@ -10,9 +12,17 @@ The scripts validate necessary dependencies. Anyway, the following packages are 
 
 ## How does it work?
 
-The tray icons needs to be resized in such a way that the visible paintings are smaller but the physical dimensions of the images stay the same.
+In KDE, for some reason, the tray icons are rendered too large.
+
+Considering the above, the tray icons may be resized in such a way that the visible paintings are smaller but the physical dimensions of the images stay the same.
 
 Look into the `samples` directory to see the results.
+
+## Other fixes
+
+The other possible fix is describered on [forum.kde.org]. 
+
+[forum.kde.org]:https://forum.kde.org/viewtopic.php?f=289&t=139804&sid=126b7c810ffe90ca3247790b364770ea&p=400696#p400696
 
 ## What can I configure?
 
