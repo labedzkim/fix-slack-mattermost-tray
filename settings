@@ -1,0 +1,7 @@
+# As the image is firstly downsized, this parameter controls that size.
+export core_size="20x20"
+
+# Then a transparent border is added to achieve the final image size exactly the same as before conversion.
+export border="6"
+
+# These settings procuce a final image of size 32x32.
