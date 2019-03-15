@@ -8,11 +8,15 @@ The scripts validate necessary dependencies. Anyway, the following packages are 
 - ImageMagick
 - NodeJs + Asar (only for Mattermost)
 
+## How does it work?
+
+The tray icons needs to be resized in such a way that the visible paintings are smaller but the physical dimensions of the images stay the same.
+
 ## What can I configure?
 
 In the `settings` file you can find the configurable parameters, each of them explained in comments.
 
-## How can I try before it before use?
+## How can I try it before use?
 
 You can test the conversion on a sample file: `samples/sample.png`. There is an example of a fixed version of that sample as well: `samples/sample.png.fixed`. 
 
