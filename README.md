@@ -6,6 +6,7 @@ Scripts fixing the size of tray icons in Slack and Mattermost
 The scripts validate necessary dependencies. Anyway, the following packages are used:
 
 - ImageMagick
+- NodeJs + Asar (only for Mattermost)
 
 ## What can I configure?
 
