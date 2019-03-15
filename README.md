@@ -12,6 +12,8 @@ The scripts validate necessary dependencies. Anyway, the following packages are 
 
 The tray icons needs to be resized in such a way that the visible paintings are smaller but the physical dimensions of the images stay the same.
 
+Look into the `samples` directory to see the results.
+
 ## What can I configure?
 
 In the `settings` file you can find the configurable parameters, each of them explained in comments.
